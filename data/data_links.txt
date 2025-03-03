@@ -1,0 +1,10 @@
+
+CIFAR10, CIFAR10, MNIST, GTSRB, SVHN can be automatically downloaded via torchvision.
+
+# RESISC45
+https://huggingface.co/datasets/timm/resisc45
+
+
+# STL10
+https://ai.stanford.edu/~acoates/stl10
+
