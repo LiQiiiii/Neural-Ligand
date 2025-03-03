@@ -333,7 +333,7 @@ for mm in range(len(exam_datasets_list)):
                 loss.backward()
                 optimizer.step()
 
-        if (glb_ep+1)%1==0:
+        if (glb_ep+1)%10==0:
             avg_loss, accuracy, merged_avg_loss, merged_accuracy = evaluate_ori(
                 fusion_model, test_loaders, criterion, device
             )
