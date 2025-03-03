@@ -83,7 +83,7 @@ to get the corresponding models for the training and evaluation.
 ## Training & Evaluation
 
 ```
-python ./src/neulig_main.py --num_co_models 2 --global_epoch 100 --alignment_type sup --model RN50
+python ./src/neulig_main.py --num_co_models 2 --global_epoch 100 --alignment_type sup --model ViT-B-32
 ```
 
 where `--num_co_models` is the number of collaborating models, `--alignment_type` controls the alignment term (i.e., sup/semi), and `--model` controls the model type (i.e., RN50/ViT-B-32/ViT-L-14).
