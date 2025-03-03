@@ -43,7 +43,7 @@ Qi Li&emsp;Runpeng Yu&emsp;Xinchao Wang<sup>&dagger;</sup>
   </div>
 <div align="center">
     <div style="margin-bottom: 20px;">
-        <img src="src/figures/comparison.png" alt="Diagram 2" width="60%">
+        <img src="src/figures/comparison.png" alt="Diagram 2" width="50%">
         <p style="max-width: 80%; text-align: center;">
             <strong>Table 1.</strong> The asterisk indicates that the condition is <strong>partially satisfied</strong>. For Simple-Averaging, the theoretical discussion is limited to the relationship between the performance of merging two models and that of ensembling. Furthermore, although both Simple-Averaging and Task-Arithmetic can be applied to CNN-based models, their performance is suboptimal. In the case of Diverse-Origin Models, all previous methods yield performance close to random guessing, but our conclusions remain applicable.
         </p>
