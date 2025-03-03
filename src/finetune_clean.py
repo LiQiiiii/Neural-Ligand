@@ -268,9 +268,8 @@ def finetune_dev(model_shadow, args):
 
 if __name__ == '__main__':
     data_location = "./data"
-    models = ['RN50']
-    # datasets = ['CIFAR10', 'MNIST', 'GTSRB', 'RESISC45', 'CIFAR100', 'SVHN', 'STL10']
-    datasets = ['MNIST']
+    models = ['RN50', 'ViT-B-32', 'ViT-L-14']
+    datasets = ['CIFAR10', 'MNIST', 'GTSRB', 'RESISC45', 'CIFAR100', 'SVHN', 'STL10']
     
     epochs = {
         'GTSRB': 11,
