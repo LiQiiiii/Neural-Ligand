@@ -70,7 +70,7 @@ conda activate neulig
 
 The codes are tested on torch 2.0.0 and torchvision 0.15.1.
 
-2. Prepare the dataset and models. The download link of the datasets used in the paper can be found in /data/data_links.txt. Run:
+2. Prepare the dataset and models. The download link of the datasets used in the paper can be found in /data/data_links.txt. Save them in the `./data` folder. Run:
 
 ```
 python ./src/finetune_clean.py
