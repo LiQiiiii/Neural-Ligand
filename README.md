@@ -34,25 +34,25 @@ Qi Li&emsp;Runpeng Yu&emsp;Xinchao Wang<sup>&dagger;</sup>
 <table>
 
 <div align="center">
-    <div style="margin-bottom: 20px;">
-        <img src="src/figures/exp.png" alt="Diagram 1" width="50%">
-        <p style="max-width: 80%; text-align: center;">
+    <div style="max-width: 50%; text-align: left; margin-bottom: 20px;">
+        <img src="src/figures/exp.png" alt="Diagram 1" style="display: block; margin: 0 auto; width: 60%;">
+        <p>
             <strong>Figure 3.</strong> A toy experiment to verify theoretical feasibility. In this experiment, we merged two models that were fine-tuned on different datasets. <strong>Marker shapes</strong> represent different methods, while <strong>colors</strong> indicate different experimental groups, with each group using a distinct combination of datasets. In total, 10 groups are conducted (represented by 10 different colors). <strong>Hollow markers</strong> for each method indicate the average results across these 10 groups.
         </p>
     </div>
   </div>
 <div align="center">
-    <div style="margin-bottom: 20px;">
-        <img src="src/figures/comparison.png" alt="Diagram 2" width="60%">
-        <p style="max-width: 80%; text-align: center;">
+    <div style="max-width: 60%; text-align: left; margin-bottom: 20px;">
+        <img src="src/figures/comparison.png" alt="Diagram 2" style="display: block; margin: 0 auto; width: 60%;">
+        <p>
             <strong>Table 1.</strong> The asterisk indicates that the condition is <strong>partially satisfied</strong>. For Simple-Averaging, the theoretical discussion is limited to the relationship between the performance of merging two models and that of ensembling. Furthermore, although both Simple-Averaging and Task-Arithmetic can be applied to CNN-based models, their performance is suboptimal. In the case of Diverse-Origin Models, all previous methods yield performance close to random guessing, but our conclusions remain applicable.
         </p>
     </div>
 </div>
 <div align="center">
-    <div style="margin-bottom: 20px;">
-        <img src="src/figures/main_table.png" alt="Diagram 3" width="100%">
-        <p style="max-width: 80%; text-align: center;">
+    <div style="max-width: 100%; text-align: left; margin-bottom: 20px;">
+        <img src="src/figures/main_table.png" alt="Diagram 3" style="display: block; margin: 0 auto; width: 100%;">
+        <p>
             <strong>Table 2.</strong> Results of various methods across multiple datasets, including the merging performance, the ensembling performance, and the performance gap for both CLIP-RN50 and CLIP-ViT-B/32.
         </p>
     </div>
