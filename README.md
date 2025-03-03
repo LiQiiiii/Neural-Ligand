@@ -51,11 +51,11 @@ to get the corresponding models for the training and evaluation.
 
 ## Training & Evaluation
 
-We provide several scripts in ```./scripts```. For example, for running KiOP-B, you may use the ```KiOP_B.sh``` as follows. You can adjust the hyperparameters in the shell file to customize your setup:
+```
+python ./src/neulig_main.py --num_co_models 2 --global_epoch 100 --alignment_type sup --model RN50
+```
 
-```
-sh ./scripts/KiOP_B.sh
-```
+where `--num_co_models` is the number of collaborating models, `--alignment_type` controls the alignment term (i.e., supervised or semisupervised), and `--model` controls the model type (i.e., RN50/ViT-B-32/ViT-L-14).
 
 ## Citation
 
@@ -71,9 +71,4 @@ If you finding our work interesting or helpful to you, please cite as follows:
       primaryClass={cs.CV}
 }
 ```
-
-## Acknowledgements
-
-This implementation is built on top of the code from [ILM-VP](https://github.com/OPTML-Group/ILM-VP) and [CMI](https://github.com/zju-vipa/CMI). We would like to express our gratitude to the authors of these repositories.
-
 
