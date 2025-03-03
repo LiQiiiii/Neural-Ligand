@@ -32,39 +32,31 @@ Qi Li&emsp;Runpeng Yu&emsp;Xinchao Wang<sup>&dagger;</sup>
 </table>
 
 <table>
-    <tr>
-        <td align="center">
-            <img src="src/figures/exp.png" width="70%">
-            <p>Figure 3. A toy experiment to verify theoretical feasibility. In this experiment, we merged two models that were fine-tuned on different datasets. `Marker shapes` represent different methods, while `colors indicate different experimental groups, with each group using a distinct combination of datasets. In total, 10 groups are conducted (represented by 10 different colors). `Hollow markers` for each method indicate the average results across these 10 groups.</p>
-        </td>
-    </tr>
-</table>
-
-<table>
-    <tr>
-        <td align="center">
-            <img src="src/figures/comparison.png" width="70%">
-            <p>Table 1. The asterisk indicates that the condition is `partially satisfied`. For Simple-Averaging, the theoretical discussion is limited to the relationship between the performance of merging two models and that of ensembling. Furthermore, although both Simple-Averaging and Task-Arithmetic can be applied to CNN-based models, their performance is suboptimal. In the case of Diverse-Origin Models, all previous methods yield performance close to random guessing, but our conclusions remain applicable. </p>
-        </td>
-          </tr>
-</table>
 
 <div align="center">
-    <figure>
+    <!-- 第一张图片 -->
+    <div style="margin-bottom: 20px;">
         <img src="src/figures/exp.png" alt="Diagram 1" width="60%">
-        <figcaption>Figure 3. A toy experiment to verify theoretical feasibility. In this experiment, we merged two models that were fine-tuned on different datasets. `Marker shapes` represent different methods, while `colors indicate different experimental groups, with each group using a distinct combination of datasets. In total, 10 groups are conducted (represented by 10 different colors). `Hollow markers` for each method indicate the average results across these 10 groups.</p>
-</figcaption>
-    </figure>
+        <p style="max-width: 80%; text-align: center;">
+            <strong>Figure 3.</strong> A toy experiment to verify theoretical feasibility. In this experiment, we merged two models that were fine-tuned on different datasets. <strong>Marker shapes</strong> represent different methods, while <strong>colors</strong> indicate different experimental groups, with each group using a distinct combination of datasets. In total, 10 groups are conducted (represented by 10 different colors). <strong>Hollow markers</strong> for each method indicate the average results across these 10 groups.
+        </p>
+    </div>
 
-    <figure>
+    <!-- 第二张图片 -->
+    <div style="margin-bottom: 20px;">
         <img src="src/figures/comparison.png" alt="Diagram 2" width="60%">
-        <figcaption>Table 1. The asterisk indicates that the condition is `partially satisfied`. For Simple-Averaging, the theoretical discussion is limited to the relationship between the performance of merging two models and that of ensembling. Furthermore, although both Simple-Averaging and Task-Arithmetic can be applied to CNN-based models, their performance is suboptimal. In the case of Diverse-Origin Models, all previous methods yield performance close to random guessing, but our conclusions remain applicable. </figcaption>
-    </figure>
+        <p style="max-width: 80%; text-align: center;">
+            <strong>Table 1.</strong> The asterisk indicates that the condition is <strong>partially satisfied</strong>. For Simple-Averaging, the theoretical discussion is limited to the relationship between the performance of merging two models and that of ensembling. Furthermore, although both Simple-Averaging and Task-Arithmetic can be applied to CNN-based models, their performance is suboptimal. In the case of Diverse-Origin Models, all previous methods yield performance close to random guessing, but our conclusions remain applicable.
+        </p>
+    </div>
 
-    <figure>
+    <!-- 第三张图片 -->
+    <div style="margin-bottom: 20px;">
         <img src="src/figures/main_table.png" alt="Diagram 3" width="100%">
-        <figcaption>Table 2. Results of various methods across multiple datasets, including the merging performance, the ensembling performance, and the performance gap for both CLIP-RN50 and CLIP-ViT-B/32.</figcaption>
-    </figure>
+        <p style="max-width: 80%; text-align: center;">
+            <strong>Table 2.</strong> Results of various methods across multiple datasets, including the merging performance, the ensembling performance, and the performance gap for both CLIP-RN50 and CLIP-ViT-B/32.
+        </p>
+    </div>
 </div>
 
 ## Installation & Preparation
