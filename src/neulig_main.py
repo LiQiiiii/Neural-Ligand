@@ -337,7 +337,6 @@ for mm in range(len(exam_datasets_list)):
             avg_loss, accuracy, merged_avg_loss, merged_accuracy = evaluate_ori(
                 fusion_model, test_loaders, criterion, device
             )
-            print("portland original performance test: ")
             print(
                 f"Epoch [{glb_ep + 1}/{args.global_epoch}] Evaluation - "
                 f"Ensembling Avg Loss: {avg_loss:.4f}, Merging Avg Loss: {merged_avg_loss:.4f}, "
