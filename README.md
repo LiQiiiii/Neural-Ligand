@@ -2,12 +2,6 @@
 <h1>Multi-Level Collaboration in Model Merging</h1>
 
 <div>
-<a target="_blank" href="https://arxiv.org/abs/***">
-  <img src="https://img.shields.io/badge/arXiv-****.*****-b31b1b.svg" alt="arXiv Paper"/>
-</a>
-</div>
-
-<div>
 Qi Li&emsp;Runpeng Yu&emsp;Xinchao Wang<sup>&dagger;</sup>
 </div>
 <div>
