@@ -17,6 +17,21 @@ Qi Li&emsp;Runpeng Yu&emsp;Xinchao Wang<sup>&dagger;</sup>
 </div>
 </div>
 
+## Graphical Abstract
+<table align="center">
+    <tr>
+        <td align="center">
+            <img src="https://example.com/image1.png" width="45%">
+            <p>Figure 1: Model Merging Process</p>
+        </td>
+        <td align="center">
+            <img src="https://example.com/image2.png" width="45%">
+            <p>Figure 2: Performance Comparison</p>
+        </td>
+    </tr>
+</table>
+
+
 ## Installation & Preparation
 
 1. Clone the repo and prepare the virtual environment.
