@@ -55,7 +55,7 @@ to get the corresponding models for the training and evaluation.
 python ./src/neulig_main.py --num_co_models 2 --global_epoch 100 --alignment_type sup --model RN50
 ```
 
-where `--num_co_models` is the number of collaborating models, `--alignment_type` controls the alignment term (i.e., supervised or semisupervised), and `--model` controls the model type (i.e., RN50/ViT-B-32/ViT-L-14).
+where `--num_co_models` is the number of collaborating models, `--alignment_type` controls the alignment term (i.e., sup/semi), and `--model` controls the model type (i.e., RN50/ViT-B-32/ViT-L-14).
 
 ## Citation
 
