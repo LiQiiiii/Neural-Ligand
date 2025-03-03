@@ -31,6 +31,18 @@ Qi Li&emsp;Runpeng Yu&emsp;Xinchao Wang<sup>&dagger;</sup>
     </tr>
 </table>
 
+<table align="center">
+    <tr>
+        <td align="center">
+            <img src="src/figures/exp.png" width="70%">
+            <p>Figure 3. A toy experiment to verify theoretical feasibility. In this experiment, we merged two models that were fine-tuned on different datasets. `Marker shapes` represent different methods, while `colors indicate different experimental groups, with each group using a distinct combination of datasets. In total, 10 groups are conducted (represented by 10 different colors). `Hollow markers` for each method indicate the average results across these 10 groups.</p>
+        </td>
+        <td align="center">
+            <img src="src/figures/comparison.png" width="70%">
+            <p>Table 1. The asterisk indicates that the condition is `partially satisfied`. For Simple-Averaging, the theoretical discussion is limited to the relationship between the performance of merging two models and that of ensembling. Furthermore, although both Simple-Averaging and Task-Arithmetic can be applied to CNN-based models, their performance is suboptimal. In the case of Diverse-Origin Models, all previous methods yield performance close to random guessing, but our conclusions remain applicable. </p>
+        </td>
+    </tr>
+</table>
 
 ## Installation & Preparation
 
