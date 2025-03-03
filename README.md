@@ -48,6 +48,25 @@ Qi Li&emsp;Runpeng Yu&emsp;Xinchao Wang<sup>&dagger;</sup>
         </td>
           </tr>
 </table>
+
+<div align="center">
+    <figure>
+        <img src="src/figures/exp.png" alt="Diagram 1" width="60%">
+        <figcaption>Figure 3. A toy experiment to verify theoretical feasibility. In this experiment, we merged two models that were fine-tuned on different datasets. `Marker shapes` represent different methods, while `colors indicate different experimental groups, with each group using a distinct combination of datasets. In total, 10 groups are conducted (represented by 10 different colors). `Hollow markers` for each method indicate the average results across these 10 groups.</p>
+</figcaption>
+    </figure>
+
+    <figure>
+        <img src="src/figures/comparison.png" alt="Diagram 2" width="60%">
+        <figcaption>Table 1. The asterisk indicates that the condition is `partially satisfied`. For Simple-Averaging, the theoretical discussion is limited to the relationship between the performance of merging two models and that of ensembling. Furthermore, although both Simple-Averaging and Task-Arithmetic can be applied to CNN-based models, their performance is suboptimal. In the case of Diverse-Origin Models, all previous methods yield performance close to random guessing, but our conclusions remain applicable. </figcaption>
+    </figure>
+
+    <figure>
+        <img src="src/figures/main_table.png" alt="Diagram 3" width="100%">
+        <figcaption>Table 2. Results of various methods across multiple datasets, including the merging performance, the ensembling performance, and the performance gap for both CLIP-RN50 and CLIP-ViT-B/32.</figcaption>
+    </figure>
+</div>
+
 ## Installation & Preparation
 
 1. Clone the repo and prepare the virtual environment.
