@@ -34,7 +34,7 @@ conda create -n neulig python=3.8.10
 ```
 
 ```
-conda activate kiop
+conda activate neulig
 ```
 
 ```
