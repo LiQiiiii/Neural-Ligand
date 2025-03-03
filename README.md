@@ -25,7 +25,7 @@ Qi Li&emsp;Runpeng Yu&emsp;Xinchao Wang<sup>&dagger;</sup>
             <p> An illustration of Portland, which consists of a linear layer followed by a softmax function.</p>
         </td>
         <td align="center">
-            <img src="src/figures/neulig_train_pip.png" width="40%">
+            <img src="src/figures/neulig_train_pip.png" width="60%">
             <p>The training process of Portland. The CoopVec is combined separately with the model output and the modified offsets, contributing to two respective terms in the loss function.</p>
         </td>
     </tr>
