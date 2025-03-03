@@ -28,7 +28,7 @@ Qi Li&emsp;Runpeng Yu&emsp;Xinchao Wang<sup>&dagger;</sup>
 <table>
 
 <div align="center">
-    <div style="max-width: 50%; text-align: left; margin-bottom: 20px;">
+    <div style="max-width: 40%; text-align: left; margin-bottom: 20px;">
         <img src="src/figures/exp.png" alt="Diagram 1" style="display: block; margin: 0 auto; width: 60%;">
     </div>
   </div>
