@@ -298,8 +298,8 @@ for mm in range(len(exam_datasets_list)):
     print("#########################################################")
     print("###############PortLand Training Begins##################")
     print("#########################################################")
-    # avg_loss, accuracy, merged_avg_loss, merged_accuracy = evaluate_ori(fusion_model, test_loaders, criterion, device)
-    # print(f"Initial Evaluation - Avg Loss: {avg_loss:.4f}, Merged Avg Loss: {merged_avg_loss:.4f}, Ensembling Accuracy: {accuracy:.2f}%, Merging Accuracy: {merged_accuracy:.2f}%")
+    avg_loss, accuracy, merged_avg_loss, merged_accuracy = evaluate_ori(fusion_model, test_loaders, criterion, device)
+    print(f"Initial Evaluation - Avg Loss: {avg_loss:.4f}, Merged Avg Loss: {merged_avg_loss:.4f}, Ensembling Accuracy: {accuracy:.2f}%, Merging Accuracy: {merged_accuracy:.2f}%")
     best_accuracy = 0.0
     for glb_ep in range(args.global_epoch):
         fusion_model.train()
