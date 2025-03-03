@@ -3,7 +3,7 @@
 
 <div>
 <a target="_blank" href="https://arxiv.org/abs/***">
-<!--   <img src="https://img.shields.io/badge/arXiv-2312.17142-b31b1b.svg" alt="arXiv Paper"/> -->
+  <img src="https://img.shields.io/badge/arXiv-2312.17142-b31b1b.svg" alt="arXiv Paper"/>
 </a>
 </div>
 
@@ -17,27 +17,20 @@ Qi Li&emsp;Runpeng Yu&emsp;Xinchao Wang<sup>&dagger;</sup>
 </div>
 </div>
 
-
-
----
-![overall_structure](./datafree/pipeline.jpg)
-
----
-
 ## Installation & Preparation
 
 1. Clone the repo and prepare the virtual environment.
 
 ```
-git clone https://github.com/LiQiiiii/Encapsulating-Knowledge-In-One-Prompt.git
+git clone https://github.com/LiQiiiii/Neural-Ligand.git
 ```
 
 ```
-cd Encapsulating-Knowledge-In-One-Prompt
+cd Neural-Ligand
 ```
 
 ```
-conda create -n kiop python=3.10.0
+conda create -n neulig python=3.8.10
 ```
 
 ```
@@ -48,24 +41,7 @@ conda activate kiop
 pip install -r requirements.txt
 ```
 
-2. Prepare the dataset and models. You can use your own models and dataset. For quick start, we provide several models and datasets, which can be downloaded directly from google drive:
-
-```
-gdown https://drive.google.com/uc?id=19o2EItRw-LOJUdjDf-mOz0zh0QalF8wj
-```
-
-```
-gdown https://drive.google.com/uc?id=18XDK2fdhCQuwGm4sJntfSvESpbZEv1bY
-```
-
-```
-unzip KiOP_models.zip
-```
-
-```
-unzip KiOP_data.zip
-```
-
+2. Prepare the dataset and models. The download link of the datasets used in the paper can be found in /data/data_links.txt
 
 ---
 
