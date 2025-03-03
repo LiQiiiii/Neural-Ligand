@@ -18,20 +18,20 @@ Qi Li&emsp;Runpeng Yu&emsp;Xinchao Wang<sup>&dagger;</sup>
 </div>
 
 ## Graphical Abstract
-<table align="center">
+<table>
     <tr>
         <td align="center">
             <img src="src/figures/neulig_overview.png" width="70%">
             <p>Figure 1. An illustration of Portland, which consists of a linear layer followed by a softmax function.</p>
         </td>
         <td align="center">
-            <img src="src/figures/neulig_train_pip.png" width="70%">
+            <img src="src/figures/neulig_train_pip.png" width="80%">
             <p>Figure 2. The training process of Portland. </p>
         </td>
     </tr>
 </table>
 
-<table align="center">
+<table>
     <tr>
         <td align="center">
             <img src="src/figures/exp.png" width="70%">
