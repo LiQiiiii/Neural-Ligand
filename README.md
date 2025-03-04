@@ -94,6 +94,8 @@ python ./src/neulig_main.py --num_co_models 2 --global_epoch 1000 --alignment_ty
 
 where `--num_co_models` is the number of collaborating models, `--alignment_type` controls the alignment term (i.e., sup/semi), and `--model` controls the model type (i.e., RN50/ViT-B-32/ViT-L-14).
 
+## Citation
+
 If you finding our work interesting or helpful to you, please cite as follows:
 
 ```
