@@ -97,12 +97,13 @@ where `--num_co_models` is the number of collaborating models, `--alignment_type
 If you finding our work interesting or helpful to you, please cite as follows:
 
 ```
-@inproceedings{li2024encapsulating,
-  title={Encapsulating Knowledge in One Prompt},
-  author={Li, Qi and Yu, Runpeng and Wang, Xinchao},
-  booktitle={European Conference on Computer Vision},
-  pages={215--232},
-  year={2024},
-  organization={Springer}
+@misc{li2025multilevelcollaborationmodelmerging,
+      title={Multi-Level Collaboration in Model Merging}, 
+      author={Qi Li and Runpeng Yu and Xinchao Wang},
+      year={2025},
+      eprint={2503.01268},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2503.01268}, 
 }
 ```
