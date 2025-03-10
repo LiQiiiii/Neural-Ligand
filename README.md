@@ -17,6 +17,11 @@ Qi Li&emsp;Runpeng Yu&emsp;Xinchao Wang<sup>&dagger;</sup>
 </div>
 </div>
 
+TL;DR (1) - Achieve performance consistency between merging and ensembling in a unified framework Neural Ligand.
+
+TL;DR (2) - Provide theoretical support for the realization of the performance consistency.
+
+
 ## Graphical Abstract
 <table>
     <tr>
