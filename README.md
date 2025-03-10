@@ -1,10 +1,6 @@
 <div align="center">
 <h1><a href="https://arxiv.org/abs/2503.01268" target="_blank">Multi-Level Collaboration in Model Merging</a></h1>
 
-TL;DR (1) - Achieve performance consistency between merging and ensembling in a unified framework Neural Ligand.
-
-TL;DR (2) - Provide theoretical support for the realization of the performance consistency.
-
 
 <div>
 <a target="_blank" href="https://arxiv.org/abs/2503.01268">
@@ -22,6 +18,10 @@ Qi Li&emsp;Runpeng Yu&emsp;Xinchao Wang<sup>&dagger;</sup>
 </div>
 </div>
 
+------------------
+TL;DR (1) - Achieve performance consistency between merging and ensembling in a unified framework Neural Ligand.
+
+TL;DR (2) - Provide theoretical support for the realization of the performance consistency.
 
 
 ## Graphical Abstract
