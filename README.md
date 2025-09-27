@@ -106,13 +106,10 @@ where `--num_co_models` is the number of collaborating models, `--alignment_type
 If you finding our work interesting or helpful to you, please cite as follows:
 
 ```
-@misc{li2025multilevelcollaborationmodelmerging,
-      title={Multi-Level Collaboration in Model Merging}, 
-      author={Qi Li and Runpeng Yu and Xinchao Wang},
-      year={2025},
-      eprint={2503.01268},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2503.01268}, 
+@article{li2025multi,
+  title={Multi-Level Collaboration in Model Merging},
+  author={Li, Qi and Yu, Runpeng and Wang, Xinchao},
+  journal={arXiv preprint arXiv:2503.01268},
+  year={2025}
 }
 ```
