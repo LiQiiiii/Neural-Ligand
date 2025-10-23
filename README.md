@@ -1,5 +1,5 @@
 <div align="center">
-<h1><a href="https://arxiv.org/abs/2503.01268" target="_blank">Towards Performance Consistency in Multi-Level Model Collaboration</a></h1>
+<h1><a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Li_Towards_Performance_Consistency_in_Multi-Level_Model_Collaboration_ICCV_2025_paper.pdf" target="_blank">Towards Performance Consistency in Multi-Level Model Collaboration</a></h1>
 
 
 <div>
